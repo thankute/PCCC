@@ -5,11 +5,11 @@
     box-sizing: border-box;
     font-family: 'Dela Gothic One', cursive;
 }
-html, 
+
 body {
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     background-color: black !important;
     position: relative;
 }
@@ -86,15 +86,17 @@ a:hover {
     width: 400px;
     position: absolute;
     left: -10%;
-    bottom: -10%;
+    bottom: -20%;
     z-index: 1;
+    rotate: 30deg;
+    transform: rotateY(180deg);
 }
 
 .fire-right {
     width: 400px;
     position: absolute;
     right: -10%;
-    bottom: -10%;
+    bottom: -20%;
     rotate: -30deg;
     z-index: 1;
 }
@@ -120,6 +122,7 @@ a:hover {
 }
 
 .letter {
+    z-index: 10;
     width: 200px;
     height: 200px;
     animation-delay: 2s;
