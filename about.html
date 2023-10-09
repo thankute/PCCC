@@ -13,63 +13,68 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-
+    
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Dela+Gothic+One&display=swap"
-    rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Phòng cháy chữa cháy</title>
-</head>
-
-<body>
-    <nav class="flex justify-content-between navbar navbar-expand-lg custom-navbar">
-        <a class="navbar-brand" href="/PCCC">
-            <img class="logo-brand" src="./img/logo.png" alt="logo_hung_dong">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="custom-center" style="height: 98px;" id="navbarNav">
-            <ul class="h-100 custom-center navbar-nav">
-                <a class="h-100 " href="/PCCC">
-                    <li class="nav-item custom-center ">
-                        <!-- <i class="m-1 bi-house-door-fill" style="font-size: 20px;"></i> -->
-                        Trang chủ
-                    </li>
-                </a>
-                <a class="h-100" href="/PCCC/about.html">
-                    <li class="nav-item custom-center">
-                        Giới thiệu
-                    </li>
-                </a>
-                <a class="h-100" href="/PCCC/edu.html">
-                    <li class="nav-item custom-center">
-                        Khám phá
-                    </li>
-                </a>
-                <!-- <a class="h-100" href="/contest.html">
-                    <li class="nav-item custom-center">
-                        Cuộc thi
-                    </li>
-                </a> -->
-                <div class="dropdown nav-item custom-center">
-                    <div class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false">
-                        Cuộc thi
+    </head>
+    
+    <body>
+        <nav class="flex justify-content-between navbar navbar-expand-lg custom-navbar">
+            <a class="navbar-brand" href="/PCCC">
+                <img class="logo-brand" src="./img/logo.png" alt="logo_hung_dong">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="custom-center" style="height: 98px;" id="navbarNav">
+                <ul class="h-100 custom-center navbar-nav">
+                    <a class="h-100 " href="/PCCC">
+                        <li class="nav-item custom-center ">
+                            <i class="fa-solid fa-house" style="margin-right: 6px;"></i>
+                            Trang chủ
+                        </li>
+                    </a>
+                    <a class="h-100" href="/PCCC/about.html">
+                        <li class="nav-item custom-center">
+                            <i class="fa-solid fa-envelope" style="margin-right: 6px;"></i>
+                            Giới thiệu
+                        </li>
+                    </a>
+                    <a class="h-100" href="/PCCC/edu.html">
+                        <li class="nav-item custom-center">
+                            <i class="fa-solid fa-magnifying-glass" style="margin-right: 6px;"></i>
+                            Khám phá
+                        </li>
+                    </a>
+                    <!-- <a class="h-100" href="/contest.html">
+                        <li class="nav-item custom-center">
+                            Cuộc thi
+                        </li>
+                    </a> -->
+                    <div class="dropdown nav-item custom-center">
+                        <div class="dropdown-toggle" type="button" id="dropdownMenuButton" data-mdb-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid fa-gamepad" style="margin-right: 6px;"></i>
+                            Cuộc thi
+                        </div>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="submit.html">Phần thi 1</a></li>
+                            <li><a class="dropdown-item" href="message.html">Phần thi 2</a></li>
+                        </ul>
                     </div>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <li><a class="dropdown-item" href="/PCCC/submit.html">Phần thi 1</a></li>
-                        <li><a class="dropdown-item" href="/PCCC/message.html">Phần thi 2</a></li>
-                    </ul>
-                </div>
-            </ul>
-        </div>
-    </nav>
+                </ul>
+            </div>
+        </nav>
 
     <div class="row">
         <div class="col d-flex justify-content-center mt-5">
@@ -78,7 +83,7 @@
         <div class="col-6">
             <div class="content-custom">
         
-                <h1 style="color: white;  font-family: 'Dancing Script'">Thư ngỏ</h1>
+                <h1 style="color: white;">Thư ngỏ</h1>
             
                 <div class="letter-content">
                     <h4>
