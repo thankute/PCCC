@@ -11,7 +11,7 @@ let score = 0;
 
 const questions = [
     {
-        question: 'Em hãy cho biết cách nhận biết đám cháy qua các dấu hiệu ban đầu?',
+        question: 'Theo em, đâu là dấu hiệu của 1 đám cháy?',
         image: './img/img1.jpg',
         answers: [
             { text: 'Có khói, mùi', correct: false },
@@ -21,7 +21,7 @@ const questions = [
         ]
     },
     {
-        question: 'Khi phát hiện cháy, em cần thực hiện các động tác theo trình tự nào dưới đây:',
+        question: 'Khi phát hiện cháy, em cần làm lần lượt theo các bước nào dưới đây:',
         image: './img/img2.jpg',
         answers: [
             { text: 'Hô to: Cháy! Cháy! Cháy!, cúp cầu dao điện, tham gia chữa cháy, đồng thời gọi điện thoại báo lực lượng chữa cháy chuyên nghiệp.', correct: true },
@@ -31,13 +31,16 @@ const questions = [
         ]
     },
     {
-        question: ' Người phát hiện cháy phải bằng mọi cách báo ngay cho đơn vị nào?',
+        question: 'Khi phát hiện đám cháy, em cần cần báo ngay cho ai:',
         image: './img/img3.jpg',
         answers: [
-            { text: 'Đội dân phòng hoặc Đội PCCC cơ sở nơi xảy ra hỏa hoạn.', correct: false },
-            { text: ' Đơn vị Cảnh sát PCCC gần nhất', correct: false },
-            { text: 'Chính quyền địa phương sở tại hoặc cơ quan Công an nơi gần nhất.', correct: false },
-            { text: 'Tất cả a, b, c đều đúng. ', correct: true },
+            {
+                text: 'Người thân: Bố mẹ, ông bà,..', correct: false },
+            {
+                text: 'Hàng xóm và những người xung quanh', correct: false },
+            {
+                text: 'Đầu số 114 của quan PCCC, cứu hộ cứu nạn', correct: false },
+            { text: 'Tất cả đáp án a, b, c đều đúng', correct: true },
         ]
     },
     {
@@ -124,13 +127,13 @@ const questions = [
         image: './img/img10.jpg',
         answers: [
             {
-                text: 'Phải ngay lập tức mở tất cả các cửa ở hướng không có cháy để giảm áp suất.', correct: false },
+                text: 'Phải ngay lập tức mở tất cả các cửa', correct: false },
             {
-                text: ' Không được mở cửa ở hướng có cháy và khói xông vào phòng.', correct: false },
+                text: 'Trốn trong nhà vệ sinh, đóng kín cửa và xả nước', correct: false },
             {
-                text: 'Các phương pháp phòng khói khẩn cấp như khăn ướt luôn có tác dụng tốt vì vậy bạn nên luôn để 1 chai nước trong phòng.', correct: true },
+                text: 'Các phương pháp phòng khói khẩn cấp như khăn ướt luôn có tác dụng tốt vì vậy có 1 chai nước trong phòng là điều cần thiết', correct: true },
             {
-                text: 'Nấp mình trong tủ quần áo để khói không lan được vào trong.', correct: false },
+                text: 'Nấp mình trong tủ quần áo để khói không lan được vào trong', correct: false },
         ]
     },
 ]
